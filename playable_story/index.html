@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>雾湾 · 倒映之渊（可玩原型）</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-title">雾湾 · 倒映之渊</div>
+        <div class="brand-sub">可玩叙事原型 · 共通线 + 照月线</div>
+      </div>
+      <div class="top-actions">
+        <button id="btn-save" class="ghost">保存</button>
+        <button id="btn-load" class="ghost">读取</button>
+        <button id="btn-restart" class="ghost">重开</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel story-panel">
+        <div class="story-head">
+          <div id="node-title" class="node-title">标题</div>
+          <div id="node-tags" class="node-tags"></div>
+        </div>
+        <div id="story-text" class="story-text"></div>
+        <div id="battle-ui" class="battle-ui hidden"></div>
+        <div id="choices" class="choices"></div>
+        <div id="continue" class="continue hidden">
+          <button id="btn-continue" class="primary">继续</button>
+        </div>
+      </section>
+
+      <aside class="panel side-panel">
+        <div class="section">
+          <div class="section-title">核心变量</div>
+          <div id="state-core" class="state-grid"></div>
+        </div>
+        <div class="section">
+          <div class="section-title">关系面板</div>
+          <div id="state-aff" class="state-grid"></div>
+        </div>
+        <div class="section">
+          <div class="section-title">日志</div>
+          <div id="log" class="log"></div>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <div>操作：点击选项推进剧情；战斗中选择目标与技能。</div>
+      <div>提示：理智过低会提高失败风险。</div>
+    </footer>
+  </div>
+
+  <script src="story-data.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

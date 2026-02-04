@@ -1,0 +1,30 @@
+{
+  "name": "funding-daily-mailer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "tsx src/index.ts fetch",
+    "send": "tsx src/index.ts send",
+    "run-once": "tsx src/index.ts run-once",
+    "start": "tsx src/index.ts schedule",
+    "build": "tsc -p tsconfig.json",
+    "start:dist": "node dist/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.5",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "luxon": "^3.5.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.9",
+    "@types/node": "^20.11.0",
+    "@types/nodemailer": "^6.4.14",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}

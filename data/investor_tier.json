@@ -1,0 +1,51 @@
+{
+  "tiers": {
+    "Tier1": [
+      "Sequoia Capital",
+      "红杉资本",
+      "a16z",
+      "Andreessen Horowitz",
+      "Accel",
+      "Index Ventures",
+      "GV",
+      "Lightspeed",
+      "高瓴",
+      "IDG资本",
+      "GGV"
+    ],
+    "Tier2": [
+      "Matrix Partners",
+      "凯辉基金",
+      "真格基金",
+      "源码资本",
+      "峰瑞资本",
+      "经纬中国",
+      "启明创投",
+      "金沙江创投",
+      "蚂蚁集团"
+    ],
+    "Strategic": [
+      "腾讯",
+      "阿里",
+      "百度",
+      "字节跳动",
+      "华为",
+      "小米",
+      "美团",
+      "京东"
+    ],
+    "Government": [
+      "国家级基金",
+      "省级引导基金",
+      "市级引导基金"
+    ],
+    "Other": []
+  },
+  "weights": {
+    "Tier1": 15,
+    "Tier2": 10,
+    "Strategic": 9,
+    "Government": 7,
+    "Other": 4
+  }
+}

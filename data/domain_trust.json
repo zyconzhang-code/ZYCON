@@ -1,0 +1,24 @@
+{
+  "default": 0.6,
+  "allowlist": {
+    "techcrunch.com": 0.9,
+    "venturebeat.com": 0.85,
+    "theverge.com": 0.8,
+    "technologyreview.com": 0.85,
+    "wired.com": 0.8,
+    "reuters.com": 0.9,
+    "36kr.com": 0.75,
+    "huxiu.com": 0.7,
+    "ifanr.com": 0.7,
+    "news.google.com": 0.65
+  },
+  "blocklist": [
+    "example.com",
+    "spamnews.com"
+  ],
+  "source_type_weight": {
+    "gdelt": 0.7,
+    "rss": 0.8,
+    "api": 0.9
+  }
+}

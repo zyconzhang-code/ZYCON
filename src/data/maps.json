@@ -1,0 +1,116 @@
+[
+  {
+    "id": "forest_cross",
+    "name": "翠影交叉林",
+    "theme": "forest",
+    "grid": [
+      "GGGGGGGGGGGGGGGGGGGG",
+      "GGGGGGGGGGGGGGGMGGGG",
+      "GGGWWWGGGGGGGGGMGGGG",
+      "GGGGGGGGGGGGGGGMGGGG",
+      "GGGGGGGGGGGGGGGGGGGG",
+      "GGGGGGGGGGGGGGGGGGGG",
+      "GGGGGGGGGGGGGWWWGGGG",
+      "GGMGGGGGGGGGGGGGGGGG",
+      "GGMGGGGGGGGGGGGGGGGG",
+      "GGMGGGGGGGGGGGGGGGGG",
+      "GGGGGGGGGGGGGGGGGGGG"
+    ],
+    "paths": [
+      [
+        { "x": 0, "y": 160 },
+        { "x": 320, "y": 160 },
+        { "x": 320, "y": 352 },
+        { "x": 640, "y": 352 },
+        { "x": 640, "y": 160 },
+        { "x": 960, "y": 160 },
+        { "x": 960, "y": 448 },
+        { "x": 1280, "y": 448 }
+      ],
+      [
+        { "x": 0, "y": 480 },
+        { "x": 256, "y": 480 },
+        { "x": 256, "y": 288 },
+        { "x": 640, "y": 288 },
+        { "x": 640, "y": 544 },
+        { "x": 1024, "y": 544 },
+        { "x": 1024, "y": 256 },
+        { "x": 1280, "y": 256 }
+      ]
+    ]
+  },
+  {
+    "id": "tide_basin",
+    "name": "潮汐盆地",
+    "theme": "ocean",
+    "grid": [
+      "GGGGGGGGGGGGGGGGGGGG",
+      "GGGGGGGGWWWWGGGGGGGG",
+      "GGGGGGGWWWWWWGGGGGGG",
+      "GGGGGGWWWWWWWWGGGGGG",
+      "GGGGGWWWWWWWWWWGGGGG",
+      "GGGGGGWWWWWWWWGGGGGG",
+      "GGGGGGGWWWWWWGGGGGGG",
+      "GGGGGGGGWWWWGGGGGGGG",
+      "GGGGGGGGGGGGGGGGMMMG",
+      "GGGGGGGGGGGGGGGGMMMG",
+      "GGGGGGGGGGGGGGGGGGGG"
+    ],
+    "paths": [
+      [
+        { "x": 0, "y": 128 },
+        { "x": 384, "y": 128 },
+        { "x": 384, "y": 352 },
+        { "x": 768, "y": 352 },
+        { "x": 768, "y": 160 },
+        { "x": 1024, "y": 160 },
+        { "x": 1280, "y": 160 }
+      ],
+      [
+        { "x": 0, "y": 576 },
+        { "x": 320, "y": 576 },
+        { "x": 320, "y": 320 },
+        { "x": 768, "y": 320 },
+        { "x": 768, "y": 608 },
+        { "x": 1280, "y": 608 }
+      ]
+    ]
+  },
+  {
+    "id": "volcano_rift",
+    "name": "熔火裂谷",
+    "theme": "volcano",
+    "grid": [
+      "VVVVVVVVVVVVVVVVVVVV",
+      "VVVVGGGGGGGGGGVVVVVV",
+      "VVVGGGGGGGGGGGGVVVVV",
+      "VVGGGGGGMMMMGGGGGGVV",
+      "VVGGGGMMMMMMGGGGVVVV",
+      "VVGGGGGGMMMMGGGGGGVV",
+      "VVVGGGGGGGGGGGGVVVVV",
+      "VVVVGGGGGGGGGGVVVVVV",
+      "VVVVVVVVVVVVVVVVVVVV",
+      "VVVVVVVVVVVVVVVVVVVV",
+      "GGGGGGGGGGGGGGGGGGGG"
+    ],
+    "paths": [
+      [
+        { "x": 0, "y": 192 },
+        { "x": 256, "y": 192 },
+        { "x": 256, "y": 416 },
+        { "x": 640, "y": 416 },
+        { "x": 640, "y": 224 },
+        { "x": 1024, "y": 224 },
+        { "x": 1280, "y": 224 }
+      ],
+      [
+        { "x": 0, "y": 512 },
+        { "x": 384, "y": 512 },
+        { "x": 384, "y": 288 },
+        { "x": 736, "y": 288 },
+        { "x": 736, "y": 544 },
+        { "x": 1280, "y": 544 }
+      ]
+    ]
+  }
+]

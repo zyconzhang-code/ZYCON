@@ -1,0 +1,132 @@
+{
+  "sources": [
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "enabled": true,
+      "lang": "en",
+      "tags": ["AI", "智能硬件", "汽车"]
+    },
+    {
+      "id": "venturebeat",
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/feed/",
+      "enabled": true,
+      "lang": "en",
+      "tags": ["AI", "机器人", "半导体"]
+    },
+    {
+      "id": "theverge",
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "enabled": true,
+      "lang": "en",
+      "tags": ["智能硬件", "汽车"]
+    },
+    {
+      "id": "technologyreview",
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "enabled": true,
+      "lang": "en",
+      "tags": ["AI", "先进制造"]
+    },
+    {
+      "id": "wired",
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "enabled": true,
+      "lang": "en",
+      "tags": ["AI", "智能硬件"]
+    },
+    {
+      "id": "reuters-tech",
+      "name": "Reuters Technology",
+      "url": "https://www.reuters.com/rssFeed/technologyNews",
+      "enabled": true,
+      "lang": "en",
+      "tags": ["AI", "半导体", "新能源"]
+    },
+    {
+      "id": "36kr",
+      "name": "36氪",
+      "url": "https://36kr.com/feed",
+      "enabled": true,
+      "lang": "zh",
+      "tags": ["AI", "出海", "新能源"]
+    },
+    {
+      "id": "huxiu",
+      "name": "虎嗅",
+      "url": "https://www.huxiu.com/rss/0.xml",
+      "enabled": true,
+      "lang": "zh",
+      "tags": ["先进制造", "汽车", "新能源"]
+    },
+    {
+      "id": "ifanr",
+      "name": "爱范儿",
+      "url": "https://www.ifanr.com/feed",
+      "enabled": true,
+      "lang": "zh",
+      "tags": ["智能硬件", "汽车"]
+    },
+    {
+      "id": "gn-ai-funding",
+      "name": "Google News: AI Funding",
+      "url": "https://news.google.com/rss/search?q=AI%20funding%20round&hl=en-US&gl=US&ceid=US:en",
+      "enabled": true,
+      "lang": "en",
+      "tags": ["AI"]
+    },
+    {
+      "id": "gn-robotics-funding",
+      "name": "Google News: Robotics Funding",
+      "url": "https://news.google.com/rss/search?q=robotics%20funding&hl=en-US&gl=US&ceid=US:en",
+      "enabled": true,
+      "lang": "en",
+      "tags": ["机器人"]
+    },
+    {
+      "id": "gn-semiconductor",
+      "name": "Google News: Semiconductor Funding",
+      "url": "https://news.google.com/rss/search?q=semiconductor%20funding&hl=en-US&gl=US&ceid=US:en",
+      "enabled": true,
+      "lang": "en",
+      "tags": ["半导体"]
+    },
+    {
+      "id": "gn-newenergy-cn",
+      "name": "Google News: 新能源 融资",
+      "url": "https://news.google.com/rss/search?q=%E6%96%B0%E8%83%BD%E6%BA%90%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "enabled": true,
+      "lang": "zh",
+      "tags": ["新能源"]
+    },
+    {
+      "id": "gn-automotive-cn",
+      "name": "Google News: 汽车 融资",
+      "url": "https://news.google.com/rss/search?q=%E6%B1%BD%E8%BD%A6%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "enabled": true,
+      "lang": "zh",
+      "tags": ["汽车"]
+    },
+    {
+      "id": "gn-hardware-cn",
+      "name": "Google News: 智能硬件 融资",
+      "url": "https://news.google.com/rss/search?q=%E6%99%BA%E8%83%BD%E7%A1%AC%E4%BB%B6%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "enabled": true,
+      "lang": "zh",
+      "tags": ["智能硬件"]
+    },
+    {
+      "id": "gn-overseas-cn",
+      "name": "Google News: 出海 融资",
+      "url": "https://news.google.com/rss/search?q=%E5%87%BA%E6%B5%B7%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "enabled": true,
+      "lang": "zh",
+      "tags": ["出海"]
+    }
+  ]
+}
